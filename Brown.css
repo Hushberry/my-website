@@ -1,0 +1,336 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.welcome {
+  color: red;
+  position: relative;
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+.navbar h1 {
+  font-size: 2rem;
+  color: #d3b265;
+  margin-right: 30%;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1px;
+  list-style: none;
+  margin-left: 60%;
+}
+
+.navbar ul li {
+  display: flex;
+  padding: 5px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #d3b265;
+  font-size: 1.2rem;
+}
+
+.hero-content {
+  background-position: cover;
+  padding: 10px;
+  background: rgb(94, 68, 20);
+  margin-top: 100px;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: red;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ddd;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.btn-pre {
+  background-color: rgb(236, 40, 40);
+  color: white;
+  padding: 0.8rem 2rem;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-left: 45%;
+}
+
+.service {
+  display: inline-block;
+  gap: 10px;
+}
+
+
+.cat {
+  display: inline;
+  list-style: none;
+}
+
+.cat h2 {
+  margin: auto;
+  gap: 5px;
+  text-align: center;
+  padding: 15px;
+  color: #aaa;
+  font-size: 2rem;
+}
+
+.cat img {
+  width: 100%;
+  height: 65px;
+  border-radius: 3rem;
+  margin: auto;
+}
+
+.fa {
+  color: burlywood;
+  border: 3px solid red;
+  padding: 5px;
+  border-radius: 10rem;
+}
+
+.cat p {
+  font-size: 1rem;
+  text-align: center;
+  color: #aaa;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.About-Us {
+  padding: 25px;
+  margin: 10px;
+  text-align: center;
+  border-bottom-style: groove;
+  box-shadow: 1px 1px 3px lightcoral;
+  display: inline-block;
+  list-style: none;
+}
+
+.About-Us h3 {
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 42px;
+}
+
+.About-Us img {
+  width: 100%;
+  border-radius: 8px;
+  height: 300px;
+  text-align: center;
+}
+
+.About-Us p {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.icon {
+  color: red;
+  text-align: center;
+  display: flex;
+  width: 100px;
+}
+
+.icon .fab {
+  font-size: 25px;
+  position: relative;
+  top: 350px;
+  padding: 5px;
+  display: flex;
+  left: 70rem;
+  animation-name: whatsapp;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes whatsapp {
+  /* 50%{
+    transform: translateX(20px);
+  }
+
+  70%{
+    transform: translateY(100px);
+  }
+
+  80%{
+    transform: translateY(-5px);
+  }
+
+  100%{
+    transform: translateY(10px);
+  }
+
+  100%{
+    transform: scale(0.5);
+  } */
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.why-choose-us {
+  display: grid;
+  color: white;
+  margin-left: 75%;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 10%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.why-choose-us h3 {
+  margin-top: 5px;
+  gap: 5px;
+  margin-right: 10%;
+  text-decoration: underline;
+  color: red;
+}
+
+.contact-info {
+  display: block;
+  padding: 40px;
+  color: #fff;
+  margin: auto;
+  margin-left: 72%;
+  font-size: 15px;
+  line-height: 27px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 1%;
+}
+
+.contact-info h3 {
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container {
+  width: 100%;
+  height: 300px;
+  border-bottom: 1px;
+  border-radius: 5px;
+  margin-left: 5%;
+  position: absolute;
+  top:312%;
+  margin-top: 6%;
+  padding: auto;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  display: flex;
+  text-align: center;
+}
+
+form {
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
+
+label {
+  font-size: 14px;
+  color: whitesmoke;
+  justify-content: space-around;
+}
+
+input,
+select,
+textarea {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #3b8bf5;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+  display: block;
+}
+
+button {
+  padding: 10px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.footer {
+  background: rgb(157, 44, 44);
+  color: #fff;
+  text-align: center;
+  margin-top: 7%;
+  width: 100%;
+}
+
+@media (max-width: 567px) {
+  .body {
+    max-width: 300px;
+    min-height: 50px;
+    flex: wrap;
+  }
+}
+
+@media (max-width: 350px) {
+  .services {
+    max-width: 500px;
+    min-height: 10px;
+    flex: wrap;
+    display: block;
+  }
+}
